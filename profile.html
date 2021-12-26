@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.bootstrapdash.com/demo/skydash/template/demo/vertical-icon-menu/pages/samples/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Aug 2021 04:39:20 GMT -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Engineblog Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <link rel="stylesheet" href="vendors/jquery-bar-rating/css-stars.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/Engine.png" />
+</head>
+
+<body class="sidebar-icon-only">
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+         <a class="navbar-brand brand-logo me-5" href="index.html"><img src="images/Engine.png" class="me-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/Engine.png" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="icon-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="ti-info-alt mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="images/faces/Anosike_Mmerichukwu_Nnaebuka passport.jpg" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="manageUsers.html">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item" href="login-2.html">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="ti-settings"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close ti-close"></i>
+          <p class="settings-heading">Quick Menu</p>
+          <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="createposts.html">Create posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ckeditor/samples/index.html">Configure editor</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Manage posts</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="manageUsers.html">Manager Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sortable-table.html">Manage Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="profile.html">Admin profile</a></li>
+                <li class="nav-item"> <a class="nav-link" href="login-2.html">Logout</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register.html"> Create Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register-2.html"> Create Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="error-404.html">View error page</a></li>
+                <li class="nav-item"> <a class="nav-link" href="lock-screen.html">Lockscreen</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="icon-grid menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-layout menu-icon"></i>
+              <span class="menu-title">Posts</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="createposts.html">Create posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ckeditor/samples/index.html">Configure editor</a></li>
+                <li class="nav-item"> <a class="nav-link" href="managePosts.html">Manage posts</a></li>
+              </ul>
+            </div>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              <i class="icon-image menu-icon"></i>
+              <span class="menu-title">Gallery</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+              <i class="icon-head menu-icon"></i>
+              <span class="menu-title">Users</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="manageUsers.html">Manager Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sortable-table.html">Manage Admins</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#settings" aria-expanded="false" aria-controls="settings">
+              <i class="icon-contract menu-icon"></i>
+              <span class="menu-title">Settings</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settings">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="profile.html">Admin profile</a></li>
+                <li class="nav-item"> <a class="nav-link" href="login-2.html">Logout</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register.html"> Create Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register-2.html"> Create Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="error-404.html">View error page</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="lock-screen.html">Lockscreen</a></li>
+             </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+          <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="border-bottom text-center pb-4">
+                        <img src="images/faces/Anosike_Mmerichukwu_Nnaebuka passport.jpg" alt="profile" class="img-lg rounded-circle mb-3"/>
+                        <div class="mb-3">
+                          <h3>Anosike Mmerichukwu N.</h3>
+                          <div class="d-flex align-items-center">
+                            <h5 class="mb-0 me-2 text-muted">Nigeria</h5>
+                            <select id="profile-rating" name="rating" autocomplete="off">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                            </select>
+                          </div>
+                        </div>
+                        <p class="w-75 mx-auto mb-3">Am all about creating inventive solutions and project. Lets create magic.</p>
+                        <div class="d-flex justify-content-center">
+                          <button class="btn btn-success me-1">Hire Me</button>
+                          <button class="btn btn-success">Follow</button>
+                        </div>
+                      </div>
+                      <div class="border-bottom py-4">
+                        <p>Skills</p>
+                        <div>
+                          <label class="badge badge-outline-dark">Digital Marketing</label>
+                          <label class="badge badge-outline-dark">Web Development</label>
+                          <label class="badge badge-outline-dark">Startup specailist</label>
+                          <label class="badge badge-outline-dark">Graphic Design</label>
+                          <label class="badge badge-outline-dark">Web Design</label>
+                          <label class="badge badge-outline-dark">Search engine Optimization</label>
+                        </div>                                                               
+                      </div>
+                      <div class="border-bottom py-4">
+                        <div class="d-flex mb-3">
+                          <div class="progress progress-md flex-grow">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="55" style="width: 55%" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                        <div class="d-flex">
+                          <div class="progress progress-md flex-grow">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="75" style="width: 75%" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="py-4">
+                        <p class="clearfix">
+                          <span class="float-left">
+                            Status
+                          </span>
+                          <span class="float-right text-muted">
+                            Active
+                          </span>
+                        </p>
+                        <p class="clearfix">
+                          <span class="float-left">
+                            Phone
+                          </span>
+                          <span class="float-right text-muted">
+                            +234 811 067 148 1
+                          </span>
+                        </p>
+                        <p class="clearfix">
+                          <span class="float-left">
+                            Mail
+                          </span>
+                          <span class="float-right text-muted">
+                            Mmerichukwuanosike@gmail.com
+                          </span>
+                        </p>
+                        <p class="clearfix">
+                          <span class="float-left">
+                            Facebook
+                          </span>
+                          <span class="float-right text-muted">
+                            <a href="#">Mmerichukwu Anosike</a>
+                          </span>
+                        </p>
+                        <p class="clearfix">
+                          <span class="float-left">
+                            Twitter
+                          </span>
+                          <span class="float-right text-muted">
+                            <a href="#">@Jmcandg</a>
+                          </span>
+                        </p>
+                      </div>
+                      <button class="btn btn-primary btn-block mb-2">Preview</button>
+                    </div>
+                    <div class="col-lg-8">
+                      <div class="d-flex justify-content-between">
+                        <div>
+                          <button class="btn btn-outline-primary">Message</button>
+                          <button class="btn btn-primary">Request</button>
+                        </div>
+                      </div>
+                      <div class="mt-4 py-2 border-top border-bottom">
+                        <ul class="nav profile-navbar">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <i class="ti-user"></i>
+                              Info
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                              <i class="ti-receipt"></i>
+                              Feed
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <i class="ti-calendar"></i>
+                              Agenda
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <i class="ti-clip"></i>
+                              Resume
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="profile-feed">
+                        <div class="d-flex align-items-start profile-feed-item">
+                         <div class="row">
+                          <div class="col-12">
+                            <div class="card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <div class="row portfolio-grid">
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/1.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Photography</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/2.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Lifestyle</h4>
+                                           <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/3.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Tech Geeks</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/4.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Explore World</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/5.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Travel</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/6.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Colors</h4>
+                                           <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/7.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Through Nature</h4>
+                                           <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/8.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>World</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/9.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Cultures</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/10.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Habits</h4>
+                                            <p>Lets Create Magic</p>  
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/11.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Being yourself</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/12.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Nature</h4>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/13.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Routines</h4>
+                                           <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/14.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Life</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcapti0on>
+                                        </figure>
+                                      </div>
+                                      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+                                        <figure class="effect-text-in">
+                                          <img src="images/samples/300x300/15.jpg" alt="image"/>
+                                          <figcaption>
+                                            <h4>Vision</h4>
+                                            <p>Lets Create Magic</p>
+                                          </figcaption>
+                                        </figure>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021 Engineblog.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/profile-demo.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+
+<!-- Mirrored from www.bootstrapdash.com/demo/skydash/template/demo/vertical-icon-menu/pages/samples/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Aug 2021 04:39:22 GMT -->
+</html>

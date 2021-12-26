@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.bootstrapdash.com/demo/skydash/template/demo/vertical-icon-menu/pages/apps/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Aug 2021 04:39:25 GMT -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Engineblog Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/lightgallery/css/lightgallery.css">
+  <!--  plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/Engine.png" />
+</head>
+    <!-- <link href="css/icons.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+         <a class="navbar-brand brand-logo me-5" href="index.html"><img src="images/Engine.png" class="me-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/Engine.png" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="icon-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="icon-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-success">
+                    <i class="ti-info-alt mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="images/faces/Anosike_Mmerichukwu_Nnaebuka passport.jpg" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="manageUsers.html">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item" href="login-2.html">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="ti-settings"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close ti-close"></i>
+          <p class="settings-heading">Quick Menu</p>
+          <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="createposts.html">Create posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ckeditor/samples/index.html">Configure editor</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Manage posts</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="manageUsers.html">Manager Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sortable-table.html">Manage Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="profile.html">Admin profile</a></li>
+                <li class="nav-item"> <a class="nav-link" href="login-2.html">Logout</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register.html"> Create Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register-2.html"> Create Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="error-404.html">View error page</a></li>
+                <li class="nav-item"> <a class="nav-link" href="lock-screen.html">Lockscreen</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="icon-grid menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="icon-layout menu-icon"></i>
+              <span class="menu-title">Posts</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="createposts.html">Create posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ckeditor/samples/index.html">Configure editor</a></li>
+                <li class="nav-item"> <a class="nav-link" href="managePosts.html">Manage posts</a></li>
+              </ul>
+            </div>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="gallery.html">
+              <i class="icon-image menu-icon"></i>
+              <span class="menu-title">Gallery</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+              <i class="icon-head menu-icon"></i>
+              <span class="menu-title">Users</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="manageUsers.html">Manager Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sortable-table.html">Manage Admins</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#settings" aria-expanded="false" aria-controls="settings">
+              <i class="icon-contract menu-icon"></i>
+              <span class="menu-title">Settings</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settings">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="profile.html">Admin profile</a></li>
+                <li class="nav-item"> <a class="nav-link" href="login-2.html">Logout</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register.html"> Create Users</a></li>
+                <li class="nav-item"> <a class="nav-link" href="register-2.html"> Create Admins</a></li>
+                <li class="nav-item"> <a class="nav-link" href="error-404.html">View error page</a></li>
+                 <li class="nav-item"> <a class="nav-link" href="lock-screen.html">Lockscreen</a></li>
+             </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row grid-margin">
+            <div class="col-lg-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Picture Gallery</h4>
+                  <p class="card-text">
+                    Click on any image to view image
+                  </p>
+                  <div id="lightgallery" class="row lightGallery">
+                    <a href="images/samples/1280x768/1.jpg" class="image-tile"><img src="images/samples/300x300/1.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/2.jpg" class="image-tile"><img src="images/samples/300x300/2.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/3.jpg" class="image-tile"><img src="images/samples/300x300/3.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/4.jpg" class="image-tile"><img src="images/samples/300x300/4.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/5.jpg" class="image-tile"><img src="images/samples/300x300/5.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/6.jpg" class="image-tile"><img src="images/samples/300x300/6.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/7.jpg" class="image-tile"><img src="images/samples/300x300/7.jpg" alt="image small"></a>
+                    <a href="images/samples/1280x768/8.jpg" class="image-tile"><img src="images/samples/300x300/8.jpg" alt="image small"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row grid-margin">
+            <div class="col-lg-12">
+              <div class="card px-3">
+                <div class="card-body">
+                  <h4 class="card-title">Pdfs and Materials</h4>
+                  <div id="lightgallery" class="row lightGallery">
+                    <a href="images/200L Courses/Cve211.jpg" class="image-tile"><img src="images/200L Courses/Cve211.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Cve212.jpg" class="image-tile"><img src="images/200L Courses/Cve212.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Cve222.jpg" class="image-tile"><img src="images/200L Courses/Cve222.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Ece272.jpg" class="image-tile"><img src="images/200L Courses/Ece272.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Ece282.jpg" class="image-tile"><img src="images/200L Courses/Ece282.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/EEE211.jpg" class="image-tile"><img src="images/200L Courses/EEE211.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/EEE251.jpg" class="image-tile"><img src="images/200L Courses/EEE251.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Engr201.jpg" class="image-tile"><img src="images/200L Courses/Engr201.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Engr202.jpg" class="image-tile"><img src="images/200L Courses/Gsp201.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Gsp201.jpg" class="image-tile"><img src="images/200L Courses/Gsp201.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Gsp202.jpg" class="image-tile"><img src="images/200L Courses/Gsp202.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Gsp207.jpg" class="image-tile"><img src="images/200L Courses/Gsp207.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Gsp208.jpg" class="image-tile"><img src="images/200L Courses/Gsp208.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mech211.jpg" class="image-tile"><img src="images/200L Courses/Mech211.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mech212.jpg" class="image-tile"><img src="images/200L Courses/Mech212.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mech261.jpg" class="image-tile"><img src="images/200L Courses/Mech261.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Ece282.jpg" class="image-tile"><img src="images/200L Courses/Ece282.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mth206.jpg" class="image-tile"><img src="images/200L Courses/Mth206.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mth207.jpg" class="image-tile"><img src="images/200L Courses/Mth207.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Mth208.jpg" class="image-tile"><img src="images/200L Courses/Mth208.jpg" alt="image small"></a>
+                    <a href="images/200L Courses/Stats205.jpg" class="image-tile"><img src="images/200L Courses/Stats205.jpg" alt="image small"></a>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card px-3">
+                <div class="card-body">
+                  <h4 class="card-title">Video Gallery</h4>
+                  <div id="video-gallery" class="row lightGallery">
+                    <a class="image-tile col-xl-3 col-lg-3 col-md-3 col-md-4 col-6" href="https://www.youtube.com/watch?v=meBbDqAXago">
+                      <img src="images/lightbox/thumb-v-y-1.jpg" alt="image" />
+                      <div class="demo-gallery-poster">
+                          <img src="images/lightbox/play-button.png" alt="image">
+                      </div>
+                    </a>
+                    <a class="image-tile col-xl-3 col-lg-3 col-md-3 col-md-4 col-6" href="https://www.youtube.com/watch?v=Pq9yPrLWMyU">
+                      <img src="images/lightbox/thumb-v-y-2.jpg" alt="image" />
+                      <div class="demo-gallery-poster">
+                          <img src="images/lightbox/play-button.png" alt="image">
+                      </div>
+                    </a>
+                    <a class="image-tile col-xl-3 col-lg-3 col-md-3 col-md-4 col-6" href="https://vimeo.com/1084537">
+                      <img src="images/lightbox/thumb-v-v-1.jpg" alt="image" />
+                      <div class="demo-gallery-poster">
+                          <img src="images/lightbox/play-button.png" alt="image">
+                      </div>
+                    </a>
+                    <a class="image-tile col-xl-3 col-lg-3 col-md-3 col-md-4 col-6" href="https://vimeo.com/35451452">
+                      <img src="images/lightbox/thumb-v-v-2.jpg" alt="image" />
+                      <div class="demo-gallery-poster">
+                          <img src="images/lightbox/play-button.png" alt="image">
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+         <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021 Engineblog.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
+          </div>
+        </footer>>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/lightgallery/js/lightgallery-all.min.js"></script>
+  <!-- end plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/light-gallery.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+
+<!-- Mirrored from www.bootstrapdash.com/demo/skydash/template/demo/vertical-icon-menu/pages/apps/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Aug 2021 04:39:32 GMT -->
+</html>
